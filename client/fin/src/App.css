@@ -1,0 +1,294 @@
+.App {
+  text-align: center;
+ 
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body
+{
+margin: 0px;
+background-color: rgb(233, 221, 221);
+}
+ 
+/* style the div and the form*/
+
+.mndiv
+{
+  width: 100%;
+  height: 100%;
+}
+.finfrm {
+  margin: 4rem auto;
+  width: 35%;
+  height: 20rem;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hdr
+{
+  position: relative;
+  margin-left: 25rem;
+  font-size: 4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.ft
+{
+  margin: 2rem;
+}
+.indiv
+{
+  margin: 0.5rem;
+}
+.thd
+{
+  background-color: rgb(24, 23, 23);
+  color: white;
+}
+
+.indiv input
+{
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  width: 70%;
+  height: 2rem;
+}
+
+
+
+.indiv select
+{
+  margin-top: 1rem;
+  margin-left: 0.2rem;
+  width: 71%;
+  height: 2.5rem;
+}
+
+.indiv label
+{
+  margin-right: 1rem;
+}
+
+#tsk, #dt
+{
+  margin-left: 2rem;
+}
+
+.tbdis {
+  width: 90%;
+  height: 10rem;
+  border: 1px solid #ccc;
+  font-family: "Raleway", sans-serif;
+  border-radius: 2rem;
+  border-collapse: separate;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.button {
+  position: relative;
+  width: 9.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #34974d;
+  background-color: #3aa856;
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+.button, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  transform: translateX(30px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.button .button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 2.5rem;
+  width: 38px;
+  background-color: #34974d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button .svg {
+  width: 30px;
+  stroke: #fff;
+}
+
+.button:hover {
+  background: #34974d;
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.button:active .button__icon {
+  background-color: #2e8644;
+}
+
+.button:active {
+  border: 1px solid #2e8644;
+}
+
+td, th {
+  text-align: center;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  font-size: 1rem;
+}
+
+.dsp
+{
+  margin-left: 12rem;
+}
+
+.bal
+{
+  font-size: 4rem;
+  text-align: center;
+  color: green;
+}
+
+
+
+.pos:hover
+{
+  background-color: green;
+}
+
+.neg:hover
+{
+  background-color: red;
+}
+
+.pi {
+  width: 40%;
+  height: 60%;
+  margin-left: 32rem; 
+}
+
+.brg
+{
+  
+    width: 50%;
+    height: 100%;
+    margin-left: 24rem; 
+  
+}
+
+.bth
+{
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 10rem;
+}
+
+.bth button
+{
+  
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+
+.bx {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bx select {
+  background-color: #8399ab;
+  color: white;
+  padding: 12px;
+  width: 252px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.bx::before {
+  
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.bx:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bx select option {
+  padding: 30px;
+}
+
+
+
+.button-56,
+.button-home {
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  color: white; 
+  overflow: hidden;
+  border: none;
+}
+
+
+
+
+.button-56:hover,
+.button-home:hover {
+  background-color: #332a2a1f; /* Hover color */
+  color: rgb(179, 162, 162); /* Text color on hover */
+}
+
+.diagonal-left {
+  background-color: #364856; /* Default color */
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 100%, 0 100%);
+  margin-right: -15px; /* To overlap with the right button */
+}
+
+.diagonal-right {
+  background-color: #364856; /* Default color */
+  clip-path: polygon(15px 0, 100% 0, 100% 100%, 0 100%);
+  margin-left: -15px; /* To overlap with the left button */
+}
